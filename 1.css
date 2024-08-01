@@ -10,9 +10,10 @@ body {
     font-family: "Bodoni", serif;
     color: rgba(255, 99, 71, 0.6);
 }
-h3 {
+h1 h3{
     color: rgba(0,0,0,0.6);
 }
+
 .blurb h2 {
    color: #EA1C2C;
    font-weight: 100;
@@ -127,6 +128,7 @@ footer{
 
 }
 .footerNav ul li a:hover{
+    color: #EA1C2C;
     opacity: 1;
 }
 .footerBottom{
@@ -139,7 +141,6 @@ footer{
 }
 .designer{
     opacity: 0.7;
-    text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 400;
     margin: 0px 5px;
