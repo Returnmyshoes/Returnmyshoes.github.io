@@ -26,47 +26,39 @@
       referrerpolicy="no-referrer"
     />
     <!--<body style="background-color: #eedcbc; font-family: Bodoni, serif"></body>-->
-    
-<style>
-  /* Custom styles to make images smaller for this example */
-  .img-custom {
-      width: 125px;
-      height: 175px;
-      object-fit: cover;
-  }
-</style>
-<link rel="stylesheet" href="1.css" />
 
-<style>
-  .fade-image {
-      width: 125px;
-      height: 175px;
-      background-image: url('#');
-      background-size: cover;
-      opacity: 0.3;
-      transition: opacity 0.5s ease-in-out;
-  }
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
 
-  .fade-image:hover {
-      opacity: 1;
-  }
-</style>
-<title>Ab's Digital Garden</title>
+    <style>
+      /* Custom styles to make images smaller for this example */
+      .img-custom {
+        width: 125px;
+        height: 175px;
+        object-fit: cover;
+      }
+    </style>
+    <link rel="stylesheet" href="1.css" />
+
+    <title>Ab's Digital Garden</title>
   </head>
 
+  <!-- Google tag (gtag.js) -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-7RF27R6FW2"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7RF27R6FW2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-7RF27R6FW2');
-</script>
-
-
+    gtag("config", "G-7RF27R6FW2");
+  </script>
 
   <body>
     <!-- page content goes here -->
@@ -75,7 +67,7 @@
       id="mainNavbar"
       class="navbar navbar-dark navbar-expand-md py-0 fixed-top"
     >
-      <a href="https://returnmyshoes.github.io/" class="navbar-brand">HOME</a>
+      <a href="https://absgarden.net" class="navbar-brand">HOME</a>
       <button
         class="navbar-toggler"
         data-toggle="collapse"
@@ -87,219 +79,578 @@
       <div class="collapse navbar-collapse" id="navLinks">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a href="https://www.absgarden.net/#RT" class="nav-link">RANDOM THOUGHTS</a>
+            <a href="https://www.absgarden.net/#RT" class="nav-link"
+              >RANDOM THOUGHTS</a
+            >
           </li>
           <li class="nav-item">
             <a href="https://www.absgarden.net/#T" class="nav-link">TECH</a>
           </li>
-          
+
           <li class="nav-item">
-            <a href="https://www.absgarden.net/#R" class="nav-link">REFERENCE</a>
+            <a href="https://www.absgarden.net/#R" class="nav-link"
+              >REFERENCE</a
+            >
           </li>
         </ul>
       </div>
     </nav>
-    <section class="container-fluid px-0">
-      <div id="H" class="row align-items-center">
-        <div class="col-12">
-          <div id="headingGroup" class="text-center">
-            <img class="img-fluid" src="image23.jpg" alt="" />
+
+    <div class="page-container">
+      <div class="content-wrap">
+        <section class="container-fluid px-0">
+          <div id="H" class="row align-items-center">
+            <div class="col-12">
+              <div id="headingGroup" class="text-center">
+                <img class="img-fluid" src="asset/image23.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <p></p>
+        <p></p>
+
+        <div class="section container-fluid px-0 text-center">
+          <div class="row align-items-center">
+            <div class="col-12">
+              <h1 id="H" class="text-center">Books</h1>
+            </div>
+          </div>
+
+          <!-- Self Help Books -->
+          <div class="category-section">
+            <div class="row">
+              <div class="col-12">
+                <h3>Self Help</h3>
+              </div>
+            </div>
+
+            <div class="row justify-content-center g-4">
+              <!-- Repeat this block for each book -->
+              <div
+                class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 fade-image book-item"
+              >
+                <a
+                  href="https://www.goodreads.com/book/show/62927923-crucial-conversations"
+                  class="img-link"
+                  target="_blank"
+                >
+                  <img
+                    src="book/923.jpg"
+                    alt="Crucial Conversations"
+                    class="img-fluid img-custom"
+                  />
+                </a>
+                <div>
+                  <a href="#" class="author-link">Author 1</a>
+                </div>
+              </div>
+              <!-- Repeat for each book -->
+              <!-- Repeat this block for each book -->
+              <div
+                class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 fade-image book-item"
+              >
+                <a
+                  href="https://www.goodreads.com/book/show/25733994-the-productivity-project"
+                  class="img-link"
+                  target="_blank"
+                >
+                  <img
+                    src="book/1.jpg"
+                    alt="The Productivity Project"
+                    class="img-fluid img-custom"
+                  />
+                </a>
+                <div>
+                  <a href="https://chrisbailey.com/" class="author-link"
+                    >Chris Bailey</a
+                  >
+                </div>
+              </div>
+              <!-- Repeat for each book -->
+              <!-- Repeat this block for each book -->
+              <div
+                class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 fade-image book-item"
+              >
+                <a
+                  href="https://www.goodreads.com/book/show/23215490-13-things-mentally-strong-people-don-t-do"
+                  class="img-link"
+                  target="_blank"
+                >
+                  <img
+                    src="book/2.jpg"
+                    alt="13 Things Mentally Strong People Don't Do"
+                    class="img-fluid img-custom"
+                  />
+                </a>
+                <div>
+                  <a href="https://amymorinlcsw.com/" class="author-link"
+                    >Amy Morin, LCSW</a
+                  >
+                </div>
+              </div>
+              <!-- Repeat for each book -->
+              <!-- Repeat this block for each book -->
+              <div
+                class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 fade-image book-item"
+              >
+                <a
+                  href="https://www.goodreads.com/book/show/18693771-the-body-keeps-the-score"
+                  class="img-link"
+                  target="_blank"
+                >
+                  <img
+                    src="book/3.jpg"
+                    alt="The Body Keeps the Score"
+                    class="img-fluid img-custom"
+                  />
+                </a>
+                <div>
+                  <a
+                    href="https://www.besselvanderkolk.com/"
+                    class="author-link"
+                    >Bessel van der Kolk</a
+                  >
+                </div>
+              </div>
+              <!-- Repeat for each book -->
+              <!-- Repeat this block for each book -->
+              <div
+                class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 fade-image book-item"
+              >
+                <a
+                  href="https://www.goodreads.com/book/show/12609433-the-power-of-habit"
+                  class="img-link"
+                  target="_blank"
+                >
+                  <img
+                    src="book/4.jpg"
+                    alt="The Power of Habit"
+                    class="img-fluid img-custom"
+                  />
+                </a>
+                <div>
+                  <a href="https://www.charlesduhigg.com/" class="author-link"
+                    >Charles Duhigg</a
+                  >
+                </div>
+              </div>
+              <!-- Repeat for each book -->
+              <!-- Repeat this block for each book -->
+              <div
+                class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 fade-image book-item"
+              >
+                <a
+                  href="https://www.goodreads.com/book/show/368593.The_4_Hour_Workweek"
+                  class="img-link"
+                  target="_blank"
+                >
+                  <img
+                    src="book/5.jpg"
+                    alt="The 4-Hour Workweek"
+                    class="img-fluid img-custom"
+                  />
+                </a>
+                <div>
+                  <a href="https://x.com/tferriss" class="author-link"
+                    >Timothy Ferriss
+                  </a>
+                </div>
+              </div>
+              <!-- Repeat for each book -->
+              <!-- Repeat this block for each book -->
+              <div
+                class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 fade-image book-item"
+              >
+                <a
+                  href="https://www.goodreads.com/book/show/8520610-quiet"
+                  class="img-link"
+                  target="_blank"
+                >
+                  <img
+                    src="book/6.jpg"
+                    alt="Quiet"
+                    class="img-fluid img-custom"
+                  />
+                </a>
+                <div>
+                  <a
+                    href="https://www.goodreads.com/author/show/4101935.Susan_Cain"
+                    class="author-link"
+                    >Susan Cain</a
+                  >
+                </div>
+              </div>
+              <!-- Repeat for each book -->
+              <!-- Repeat this block for each book -->
+              <div
+                class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 fade-image book-item"
+              >
+                <a
+                  href="https://www.goodreads.com/book/show/324748.The_Dip"
+                  class="img-link"
+                  target="_blank"
+                >
+                  <img
+                    src="book/7.jpg"
+                    alt="The Dip"
+                    class="img-fluid img-custom"
+                  />
+                </a>
+                <div>
+                  <a href="https://www.sethgodin.com/" class="author-link"
+                    >Seth Godin</a
+                  >
+                </div>
+              </div>
+              <!-- Repeat for each book -->
+              <!-- Repeat this block for each book -->
+              <div
+                class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 fade-image book-item"
+              >
+                <a
+                  href="https://www.goodreads.com/book/show/81948.The_E_myth_Revisited"
+                  class="img-link"
+                  target="_blank"
+                >
+                  <img
+                    src="book/8.jpg"
+                    alt="The E-myth Revisited"
+                    class="img-fluid img-custom"
+                  />
+                </a>
+                <div>
+                  <a
+                    href="https://www.goodreads.com/author/show/3416.Michael_E_Gerber"
+                    class="author-link"
+                    >Michael E. Gerber</a
+                  >
+                </div>
+              </div>
+              <!-- Repeat for each book -->
+              <!-- Repeat this block for each book -->
+              <div
+                class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 fade-image book-item"
+              >
+                <a
+                  href="https://www.goodreads.com/book/show/4069.Man_s_Search_for_Meaning"
+                  class="img-link"
+                  target="_blank"
+                >
+                  <img
+                    src="book/9.jpg"
+                    alt="Man’s Search for Meaning"
+                    class="img-fluid img-custom"
+                  />
+                </a>
+                <div>
+                  <a href="https://example.com/author1" class="author-link"
+                    >Author 1</a
+                  >
+                </div>
+              </div>
+              <!-- Repeat for each book -->
+              <!-- Repeat this block for each book -->
+              <div
+                class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 fade-image book-item"
+              >
+                <a
+                  href="https://www.goodreads.com/book/show/27213329-grit"
+                  class="img-link"
+                  target="_blank"
+                >
+                  <img
+                    src="book/10.jpg"
+                    alt="Grit"
+                    class="img-fluid img-custom"
+                  />
+                </a>
+                <div>
+                  <a href="https://angeladuckworth.com/" class="author-link"
+                    >Angela Duckworth</a
+                  >
+                </div>
+              </div>
+              <!-- Repeat for each book -->
+              <!-- Repeat this block for each book -->
+              <div
+                class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 fade-image book-item"
+              >
+                <a
+                  href="https://www.goodreads.com/book/show/34043787-the-life-changing-manga-of-tidying-up"
+                  class="img-link"
+                  target="_blank"
+                >
+                  <img
+                    src="book/11.jpg"
+                    alt="The Life-Changing Manga of Tidying Up"
+                    class="img-fluid img-custom"
+                  />
+                </a>
+                <div>
+                  <a href="https://x.com/mariekondo" class="author-link"
+                    >Marie Kondō</a
+                  >
+                </div>
+              </div>
+              <!-- Repeat for each book -->
+              <!-- Repeat this block for each book -->
+              <div
+                class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 fade-image book-item"
+              >
+                <a
+                  href="https://www.goodreads.com/book/show/44770129-ultralearning"
+                  class="img-link"
+                  target="_blank"
+                >
+                  <img
+                    src="book/12.jpg"
+                    alt="Ultralearning"
+                    class="img-fluid img-custom"
+                  />
+                </a>
+                <div>
+                  <a href="https://jamesclear.com/" class="author-link"
+                    >James Clear (Foreword)
+                  </a>
+                  <a href="https://www.scotthyoung.com/" class="author-link">
+                    Scott H. Young</a
+                  >
+                </div>
+              </div>
+              <!-- Repeat for each book -->
+              <!-- Repeat this block for each book -->
+              <div
+                class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 fade-image book-item"
+              >
+                <a
+                  href="https://www.goodreads.com/book/show/54898389-the-almanack-of-naval-ravikant"
+                  class="img-link"
+                  target="_blank"
+                >
+                  <img
+                    src="book/13.jpg"
+                    alt="The Almanack of Naval Ravikant"
+                    class="img-fluid img-custom"
+                  />
+                </a>
+                <div>
+                  <a
+                    href="https://www.ejorgenson.com/books-1"
+                    class="author-link"
+                    >Eric Jorgenson</a
+                  >
+                </div>
+              </div>
+              <!-- Repeat for each book -->
+              <!-- Repeat this block for each book -->
+              <div
+                class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 fade-image book-item"
+              >
+                <a
+                  href="https://www.goodreads.com/book/show/50921772-how-to-overcome-your-childhood"
+                  class="img-link"
+                  target="_blank"
+                >
+                  <img
+                    src="book/14.jpg"
+                    alt="How to Overcome Your Childhood"
+                    class="img-fluid img-custom"
+                  />
+                </a>
+                <div>
+                  <a
+                    href="https://www.goodreads.com/author/show/6509498.The_School_of_Life"
+                    class="author-link"
+                    >The School of Life</a
+                  >
+                </div>
+              </div>
+              <!-- Repeat for each book -->
+              <!-- Repeat this block for each book -->
+              <div
+                class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 fade-image book-item"
+              >
+                <a
+                  href="https://www.goodreads.com/book/show/40121378-atomic-habits"
+                  class="img-link"
+                  target="_blank"
+                >
+                  <img
+                    src="book/15.jpg"
+                    alt="Atomic Habits"
+                    class="img-fluid img-custom"
+                  />
+                </a>
+                <div>
+                  <a href="https://jamesclear.com/" class="author-link"
+                    >James Clear</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- Repeat for each book -->
+          </div>
+
+          <!-- Fantasy Books -->
+          <div class="category-section">
+            <div class="row">
+              <div class="col-12">
+                <h3>Fantasy</h3>
+              </div>
+            </div>
+
+            <div class="row justify-content-center g-4">
+              <!-- Repeat this block for each book -->
+              <div
+                class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 fade-image book-item"
+              >
+                <a
+                  href="https://www.goodreads.com/book/show/52694527-the-shadow-of-the-gods"
+                  class="img-link"
+                  target="_blank"
+                >
+                  <img
+                    src="book/527.jpg"
+                    alt="The Shadow of the Gods"
+                    class="img-fluid img-custom"
+                  />
+                </a>
+                <div>
+                  <a href="https://x.com/JohnGwynne_" class="author-link"
+                    >John Gwynne</a
+                  >
+                </div>
+              </div>
+              <!-- Repeat for each book -->
+              <!-- Repeat this block for each book -->
+              <div
+                class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 fade-image book-item"
+              >
+                <a
+                  href="https://www.goodreads.com/book/show/57341045-the-hunger-of-the-gods"
+                  class="img-link"
+                  target="_blank"
+                >
+                  <img
+                    src="book/045.jpg"
+                    alt="The Hunger of the Gods"
+                    class="img-fluid img-custom"
+                  />
+                </a>
+                <div>
+                  <a href="https://x.com/JohnGwynne_" class="author-link"
+                    >John Gwynne</a
+                  >
+                </div>
+              </div>
+              <!-- Repeat for each book -->
+              <!-- Repeat this block for each book -->
+              <div
+                class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 fade-image book-item"
+              >
+                <a
+                  href="https://www.goodreads.com/book/show/61755703-the-fury-of-the-gods"
+                  class="img-link"
+                  target="_blank"
+                >
+                  <img
+                    src="book/703.jpg"
+                    alt="The Shadow of the Gods"
+                    class="img-fluid img-custom"
+                  />
+                </a>
+                <div>
+                  <a href="https://x.com/JohnGwynne_" class="author-link"
+                    >John Gwynne</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- Repeat for each book -->
+          </div>
+
+          <!-- horror Books -->
+          <div class="category-section">
+            <div class="row">
+              <div class="col-12">
+                <h3>Horror</h3>
+              </div>
+            </div>
+
+            <div class="row justify-content-center g-4">
+              <!-- Repeat this block for each book -->
+              <div
+                class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 fade-image book-item"
+              >
+                <a
+                  href="https://www.goodreads.com/book/show/52694527-the-shadow-of-the-gods"
+                  class="img-link"
+                  target="_blank"
+                >
+                  <img
+                    src="book/527.jpg"
+                    alt="The Shadow of the Gods"
+                    class="img-fluid img-custom"
+                  />
+                </a>
+                <div>
+                  <a href="https://x.com/JohnGwynne_" class="author-link"
+                    >John Gwynne</a
+                  >
+                </div>
+              </div>
+              <!-- Repeat for each book -->
+              <!-- Repeat this block for each book -->
+              <div
+                class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 fade-image book-item"
+              >
+                <a
+                  href="https://www.goodreads.com/book/show/57341045-the-hunger-of-the-gods"
+                  class="img-link"
+                  target="_blank"
+                >
+                  <img
+                    src="book/045.jpg"
+                    alt="The Hunger of the Gods"
+                    class="img-fluid img-custom"
+                  />
+                </a>
+                <div>
+                  <a href="https://x.com/JohnGwynne_" class="author-link"
+                    >John Gwynne</a
+                  >
+                </div>
+              </div>
+              <!-- Repeat for each book -->
+              <!-- Repeat this block for each book -->
+              <div
+                class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 fade-image book-item"
+              >
+                <a
+                  href="https://www.goodreads.com/book/show/61755703-the-fury-of-the-gods"
+                  class="img-link"
+                  target="_blank"
+                >
+                  <img
+                    src="book/703.jpg"
+                    alt="The Shadow of the Gods"
+                    class="img-fluid img-custom"
+                  />
+                </a>
+                <div>
+                  <a href="https://x.com/JohnGwynne_" class="author-link"
+                    >John Gwynne</a
+                  >
+                </div>
+              </div>
+              <!-- Repeat for each book -->
+            </div>
           </div>
         </div>
       </div>
-</section>
-
-      <section class="container-fluid px-0">
-        <div id="B" class="row align-items-center">
-          <div col-12">
-            <div id="H" class="text-center">
-    
-              <h1>Books</h1>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="container-fluid px-0 text-center">
-        <div class="row align-items-center">
-          <div class="row">
-            <div class="col">
-    
-              <h3>Self Help</h3>
-            </div>
-
-
-
-
-            <div class="row justify-content-center g-4 mb-4">
-              <div class="col-auto fade-image"><a href="https://www.goodreads.com/book/show/62927923-crucial-conversations" target="_blank" class="img-link">
-                      <img src="book/923.jpg" alt="Image 1" class="img-fluid img-custom">
-                  </a>
-                  <div>
-                    <a href="https://example.com/author1" class="author-link">Author 1</a>
-                </div>
-              </div>
-              <div class="col-auto fade-image">
-                  <a href="https://www.goodreads.com/book/show/25733994-the-productivity-project" target="_blank" class="img-link">
-                      <img src="book/1.jpg" alt="Image 2" class="img-fluid img-custom">
-                  </a>
-                  <div>
-                    <a href="https://chrisbailey.com/" class="author-link"> Chris Bailey</a>
-                </div>
-              </div>
-              <div class="col-auto fade-image">
-                  <a href="https://www.goodreads.com/book/show/23215490-13-things-mentally-strong-people-don-t-do" target="_blank" class="img-link">
-                      <img src="book/2.jpg" alt="Image 3" class="img-fluid img-custom">
-                  </a>
-                  <div>
-                    <a href="https://amymorinlcsw.com/" class="author-link">  Amy Morin, LCSW </a>
-                </div>
-              </div>
-              <div class="col-auto fade-image">
-                  <a href="https://www.goodreads.com/book/show/18693771-the-body-keeps-the-score" target="_blank" class="img-link">
-                      <img src="book/3.jpg" alt="Image 1" class="img-fluid img-custom">
-                  </a>
-                  <div>
-                    <a href="https://www.besselvanderkolk.com/" class="author-link"> Bessel van der Kolk</a>
-                </div>
-              </div>
-              <div class="col-auto fade-image">
-                <a href="chttps://www.goodreads.com/book/show/12609433-the-power-of-habit" target="_blank" class="img-link">
-                      <img src="book/4.jpg" alt="Image 2" class="img-fluid img-custom">
-                  </a>
-                  <div>
-                    <a href="https://www.charlesduhigg.com/" class="author-link">Charles Duhigg</a>
-                </div>
-              </div>
-              <div class="col-auto fade-image">
-                  <a href="https://www.goodreads.com/book/show/9278897-the-4-hour-work-week" target="_blank" class="img-link">
-                      <img src="book/5.jpg" alt="Image 3" class="img-fluid img-custom">
-                  </a>
-                  <div>
-                    <a href="https://x.com/tferriss" class="author-link">Tim Ferriss</a>
-                </div>
-              </div>
-              <div class="col-auto fade-image">
-                  <a href="https://www.goodreads.com/book/show/8520610-quiet" target="_blank" class="img-link">
-                      <img src="book/6.jpg" alt="Image 1" class="img-fluid img-custom">
-                  </a>
-                  <div>
-                    <a href="https://www.goodreads.com/author/show/4101935.Susan_Cain" class="author-link">Susan Cain</a>
-                </div>
-              </div>
-              <div class="col-auto fade-image">
-                  <a href="https://www.goodreads.com/book/show/324748.The_Dip" target="_blank" class="img-link">
-                      <img src="book/7.jpg" alt="Image 2" class="img-fluid img-custom">
-                  </a>
-                  <div>
-                    <a href="https://www.sethgodin.com/" class="author-link"> Seth Godin</a>
-                </div>
-              </div>
-              <div class="col-auto fade-image">
-                  <a href="https://www.goodreads.com/book/show/81948.The_E_myth_Revisited" target="_blank" class="img-link">
-                      <img src="book/8.jpg" alt="Image 3" class="img-fluid img-custom">
-                  </a>
-                  <div>
-                    <a href="https://www.goodreads.com/author/show/3416.Michael_E_Gerber" class="author-link">Michael E. Gerber</a>
-                </div>
-              </div>
-            <div class="row justify-content-center g-4 mb-4">
-              <div class="col-auto fade-image">
-                  <a href="https://www.goodreads.com/book/show/4069.Man_s_Search_for_Meaning" target="_blank" class="img-link">
-                      <img src="book/9.jpg" alt="Image 1" class="img-fluid img-custom">
-                  </a>
-                  <div>
-                    <a href="https://example.com/author1" class="author-link">Author 1</a>
-                </div>
-              </div>
-              <div class="col-auto fade-image">
-                  <a href="https://www.goodreads.com/book/show/27213329-grit" target="_blank" class="img-link">
-                      <img src="book/10.jpg" alt="Image 2" class="img-fluid img-custom">
-                  </a>
-                  <div>
-                    <a href="https://angeladuckworth.com/" class="author-link"> Angela Duckworth</a>
-                </div>
-              </div>
-              <div class="col-auto fade-image">
-                  <a href="https://www.goodreads.com/book/show/34043787-the-life-changing-manga-of-tidying-up" target="_blank" class="img-link">
-                      <img src="book/11.jpg" alt="Image 3" class="img-fluid img-custom">
-                  </a>
-                  <div>
-                    <a href="https://x.com/mariekondo" class="author-link">Marie Kondo</a>
-                </div>
-              </div>
-              <div class="col-auto fade-image">
-                  <a href="https://www.goodreads.com/book/show/44770129-ultralearning" target="_blank" class="img-link">
-                      <img src="book/12.jpg" alt="Image 1" class="img-fluid img-custom">
-                  </a>
-                  <div>
-                    <a href="https://jamesclear.com/" class="author-link">James Clear (Foreword) </a>,  <a href="https://www.scotthyoung.com/" class="author-link"> Scott H. Young</a>
-                </div>
-              </div>
-              <div class="col-auto fade-image">
-                  <a href="https://www.goodreads.com/book/show/54898389-the-almanack-of-naval-ravikant" target="_blank" class="img-link">
-                      <img src="book/13.jpg" alt="Image 2" class="img-fluid img-custom">
-                  </a>
-                  <div>
-                    <a href="https://www.ejorgenson.com/books-1" class="author-link"> Eric Jorgenson </a>
-                </div>
-              </div>
-              <div class="col-auto fade-image">
-                  <a href="https://www.goodreads.com/book/show/50921772-how-to-overcome-your-childhood" target="_blank" class="img-link">
-                      <img src="book/14.jpg" alt="Image 3" class="img-fluid img-custom">
-                  </a>
-                  <div>
-                    <a href="https://www.goodreads.com/author/show/6509498.The_School_of_Life" class="author-link">The School of Life</a>
-                </div>
-              </div>
-              <div class="col-auto fade-image">
-                  <a href="https://www.goodreads.com/book/show/40121378-atomic-habits" target="_blank" class="img-link">
-                    <img src="book/15.jpg" alt="Image 3" class="img-fluid img-custom">
-                  </a>
-                  <div>
-                    <a href="https://jamesclear.com/" class="author-link">James Clear </a>
-                </div>
-              </div>
-          </div>
-
-
-<p></p>
-<p></p>
-          <div class="col">
-    
-            <h3>Fantasy</h3>
-          </div>
-
-
-          <div class="row justify-content-center g-4 mb-4">
-            <div class="col-center fade-image">
-                <a href="https://www.goodreads.com/book/show/52694527-the-shadow-of-the-gods" target="_blank" class="img-link">
-                    <img src="book/527.jpg" alt="Image 1" class="img-fluid img-custom">
-                </a>
-                <div>
-                  <a href="https://x.com/JohnGwynne_" class="author-link">John Gwynne</a>
-              </div>
-            </div>
-            <div class="col-center fade-image">
-                <a href="https://www.goodreads.com/book/show/57341045-the-hunger-of-the-gods" target="_blank" class="img-link">
-                    <img src="book/045.jpg" alt="Image 2" class="img-fluid img-custom">
-                </a>
-                <div>
-                  <a href="https://x.com/JohnGwynne_" class="author-link"> John Gwynne</a>
-              </div>
-            </div>
-            <div class="col-center fade-image">
-                <a href="https://www.goodreads.com/book/show/61755703-the-fury-of-the-gods" target="_blank" class="img-link">
-                    <img src="book/703.jpg" alt="Image 3" class="img-fluid img-custom">
-                </a>
-                <div>
-                  <a href="https://www.goodreads.com/author/show/6509498.The_School_of_Life" class="author-link">John Gwynne</a>
-              </div>
-            </div>
-        </div>
-          
-
-          <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS-->
+    </div>
     <script
       src="https://code.jquery.com/jquery-3.7.1.js"
       integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
@@ -319,36 +670,58 @@
         });
       });
     </script>
+
     <footer>
       <div class="footerContainer">
         <div class="row align-items-end">
           <div class="col">
-        <div class="socialIcons">
-          <a href="https://www.instagram.com/browncowhowfat/"><i class="fa-brands fa-instagram"></i></a>
-          <a href="https://x.com/ReturMyShoes"><i class="fa-brands fa-x-twitter"></i></a>
-          <a href="https://www.youtube.com/channel/UCfspyfaMf7Ecor7hdFtMl7Q"><i class="fa-brands fa-youtube"></i></a>
-          <a href="https://medium.com/@noelemac48"><i class="fa-brands fa-medium"></i></a>
-          <a href="https://github.com/ReturnMyShoes"><i class="fa-brands fa-github"></i></a>
-          <a href="https://returnmyshoes.github.io/book.html"><i class="fa-solid fa-book-bookmark"></i></a>
-          <a href="https://returnmyshoes.github.io/"><i class="fa-solid fa-house-chimney"></i></a>
-          
-        </div>
-        <div class="footerNav">
-          <ul>
-            <li><a href="https://www.absgarden.net/#H">Home</a></li>
-            <li><a href="https://www.absgarden.net/#RT">Random Thoughts</a></li>
-            <li><a href="https://www.absgarden.net/#T">Tech</a></li>
-            <li><a href="https://www.absgarden.net/#R">Reference</a></li>
-          </ul>
+            <div class="socialIcons">
+              <a href="https://www.instagram.com/browncowhowfat/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://x.com/ReturMyShoes"
+                ><i class="fa-brands fa-x-twitter"></i
+              ></a>
+              <a href="https://www.youtube.com/channel/UCfspyfaMf7Ecor7hdFtMl7Q"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
+              <a href="https://medium.com/@noelemac48"
+                ><i class="fa-brands fa-medium"></i
+              ></a>
+              <a href="https://github.com/ReturnMyShoes"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a href="https://absgarden.net/book.html"
+                ><i class="fa-solid fa-book-bookmark"></i
+              ></a>
+              <a href="https://absgarden.net/"
+                ><i class="fa-solid fa-house-chimney"></i
+              ></a>
+            </div>
+            <div class="footerNav">
+              <ul>
+                <li><a href="https://www.absgarden.net/#H">Home</a></li>
+                <li>
+                  <a href="https://www.absgarden.net/#RT">Random Thoughts</a>
+                </li>
+                <li><a href="https://www.absgarden.net/#T">Tech</a></li>
+                <li><a href="https://www.absgarden.net/#R">Reference</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footerBottom">
+            <p>
+              Copyright &copy;2024 Designed by
+              <span class="designer" 1
+                ><a href="mailto:absgarden[at]absgarden[dot]net?subject=Howdy"
+                  >absgarden[at]absgarden[dot]]net</a
+                >
+                Ab B.</span
+              >
+            </p>
+          </div>
         </div>
       </div>
-      <div class="footerBottom">
-        <p>
-          Copyright &copy;2024 Designed by <span class="designer"><a href="mailto:absgarden@absgarden.net?subject=Howdy">absgarden@absgarden.net</A> Ab B.</span>
-        </p>
-      </div>
-    </div>
-    </div>
     </footer>
   </body>
 </html>
