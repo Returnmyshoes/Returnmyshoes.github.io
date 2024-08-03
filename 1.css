@@ -8,11 +8,41 @@
 body {
     background: #eedcbc;
     font-family: "Bodoni", serif;
+    font-size: 20px;
     color: rgba(255, 99, 71, 0.6);
 }
-h1 h3{
-    color: rgba(0,0,0,0.6);
+h1, h3{
+    color: rgba(0,0,0,1.0);
 }
+
+
+.book-item {
+    margin-bottom: 2.8rem; /* Adds space below each book */
+  }
+  @media (min-width: 768px) {
+    .book-item {
+      margin-bottom: 3rem; /* Increases space on larger screens */
+    }
+  }
+  .category-section {
+    margin-top: 4rem; /* Adds space above each category section */
+  }
+
+  .fade-image {
+    width: 125px;
+    height: 175px;
+    background-image: url("#");
+    background-size: cover;
+    opacity: 0.3;
+    transition: opacity 0.5s ease-in-out;
+  }
+
+  .fade-image:hover {
+    opacity: 1;
+  }
+
+
+
 
 .blurb h2 {
    color: #EA1C2C;
@@ -107,7 +137,7 @@ footer{
     transition: 0.5s;
 }
 .socialIcons a:hover i{
-    color: white;
+    color: #EA1C2C;
     transition: 0.5s;
 }
 .footerNav{
